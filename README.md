@@ -1,33 +1,34 @@
-
-
 # User and Role Management Dashboard
 
 A modern web application built using React, Ant Design, and React Router for managing user roles and users. This application features a responsive layout, role-based access control, and user management functionalities. It is designed to be an easy-to-use interface for managing users and their respective roles within an organization.
 
-### Live Demo: [View the live application]()
+### Live Demo: [View the live application](https://harsh-balwani-vrv.vercel.app/)
 
 ## Features
 
 - **Role Management**:
+
   - Create, update, and delete roles.
   - Assign specific permissions (Read, Write, Delete) to each role.
 
 - **User Management**:
+
   - View and manage users.
   - Assign roles to users.
   - Update user status (active/inactive).
 
 - **Search Functionality**:
+
   - Search users and roles by name or keyword.
   - Easily filter through users or roles with an intuitive search bar in the UI.
 
 - **Responsive UI**:
+
   - Built with Ant Design components for a modern and clean UI.
   - Mobile-friendly layout.
 
 - **Routing and Navigation**:
   - Utilize React Router for seamless navigation between different sections (Home, User Management, Role Management).
-
 
 ## Tech Stack
 
@@ -36,7 +37,6 @@ A modern web application built using React, Ant Design, and React Router for man
   - React Router
   - Ant Design
   - JavaScript (ES6+)
-  
 - **Development Tools**:
   - Node.js
   - npm (or yarn)
@@ -115,8 +115,20 @@ let rolesData = [
 ];
 
 let usersData = [
-  { id: 1, username: "johnDoe1", email: "john@example.com", role: "Admin", status: "active" },
-  { id: 2, username: "janeSmith3", email: "jane@example.com", role: "User", status: "active" },
+  {
+    id: 1,
+    username: "johnDoe1",
+    email: "john@example.com",
+    role: "Admin",
+    status: "active",
+  },
+  {
+    id: 2,
+    username: "janeSmith3",
+    email: "jane@example.com",
+    role: "User",
+    status: "active",
+  },
 ];
 ```
 
@@ -127,9 +139,3 @@ Once the app is running locally, you can test the following features:
 - **Home Page**: The landing page of the application.
 - **User Management**: View users, add new users, edit existing users, or delete users.
 - **Role Management**: Create, update, and delete roles and assign permissions to roles.
-
-
-
-
-
-
