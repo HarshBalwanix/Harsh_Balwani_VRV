@@ -58,7 +58,7 @@ Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/HarshBalwanix/Harsh_Balwani_VRV.git
-cd repository-name
+cd Harsh_Balwani_VRV
 ```
 
 ### 2. Install Dependencies
